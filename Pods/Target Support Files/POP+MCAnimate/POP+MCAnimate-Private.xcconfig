@@ -1,0 +1,5 @@
+#include "POP+MCAnimate.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/POP+MCAnimate" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BGUtilities" "${PODS_ROOT}/Headers/Public/BMYScrollableNavigationBar" "${PODS_ROOT}/Headers/Public/Colours" "${PODS_ROOT}/Headers/Public/FRDLivelyButton" "${PODS_ROOT}/Headers/Public/MMDrawerController" "${PODS_ROOT}/Headers/Public/MTStatusBarOverlay" "${PODS_ROOT}/Headers/Public/POP+MCAnimate" "${PODS_ROOT}/Headers/Public/RNGridMenu" "${PODS_ROOT}/Headers/Public/TTTAttributedLabel" "${PODS_ROOT}/Headers/Public/XLForm" "${PODS_ROOT}/Headers/Public/libHN" "${PODS_ROOT}/Headers/Public/pop"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
