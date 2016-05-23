@@ -553,12 +553,13 @@
 		B63D8E1E19BEAE8E0077FCBA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = bennyguitar;
 				TargetAttributes = {
 					B63D8E2519BEAE8E0077FCBA = {
 						CreatedOnToolsVersion = 6.0;
-						DevelopmentTeam = RMTZ2ZJ8M5;
+						DevelopmentTeam = XYL49Z8YJS;
 					};
 					B63D8E3719BEAE8E0077FCBA = {
 						CreatedOnToolsVersion = 6.0;
