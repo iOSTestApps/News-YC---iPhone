@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153DFD3DD09256F1025BC572 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD45687520846380EE2BC4 /* BuddyBuildSDK.framework */; };
+		23F51D82ABFB5C55700F5064 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCBAF9767487D26148CA522 /* CoreText.framework */; };
+		38EB5EBBE6A3E1C501536643 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E94BC62565F913FF87092CB8 /* CoreTelephony.framework */; };
+		6D5429616EDE2094A840CC21 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1130A3498FB58865BFB207 /* CoreMedia.framework */; };
+		71403981AA56A9D0E389D13D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A4B6B09140FD31B5271DD5 /* CoreVideo.framework */; };
 		9736D846DE1540C8A72F1530 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E00BF15266934FC7A9473FF8 /* libPods.a */; };
 		B618606A19C8D46600BF7738 /* commentbubble-01.png in Resources */ = {isa = PBXBuildFile; fileRef = B618606919C8D46600BF7738 /* commentbubble-01.png */; };
 		B618606D19C8D6C300BF7738 /* commentbubbleDark.png in Resources */ = {isa = PBXBuildFile; fileRef = B618606C19C8D6C300BF7738 /* commentbubbleDark.png */; };
@@ -57,6 +62,10 @@
 		B69D3ABB19BF329F003DDD99 /* HNTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D3ABA19BF329F003DDD99 /* HNTheme.swift */; };
 		B6F2A8D319E220E900350F9C /* HNLaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6F2A8D219E220E900350F9C /* HNLaunchScreen.xib */; };
 		B6F76AF119E069990047556B /* HNGridMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F76AF019E069990047556B /* HNGridMenuView.swift */; };
+		B7CC307231DA2EA28538ED6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B98C188AC130145A32318 /* SystemConfiguration.framework */; };
+		CBCB2E787AF1204610903566 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B7F3344615FF360FA99722E /* AVFoundation.framework */; };
+		E1A1E2096C17D9559871E0CE /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39482340A6C249BA33E298E3 /* AssetsLibrary.framework */; };
+		FCDBF151EE00A25952074171 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0DD9AAEBA4E581A6CBD8BF /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +79,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39482340A6C249BA33E298E3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		3C2B98C188AC130145A32318 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3CCBAF9767487D26148CA522 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		52DD45687520846380EE2BC4 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		7761B11D6B05DD227B4EBCAC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7766ACE662E0D77E19BE7958 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7B7F3344615FF360FA99722E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B618606919C8D46600BF7738 /* commentbubble-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "commentbubble-01.png"; sourceTree = "<group>"; };
 		B618606C19C8D6C300BF7738 /* commentbubbleDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = commentbubbleDark.png; sourceTree = "<group>"; };
 		B618607019C9E04900BF7738 /* HNCommentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNCommentsViewController.swift; path = Controllers/HNCommentsViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +140,11 @@
 		B69D3ABC19BF389B003DDD99 /* HN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HN-Bridging-Header.h"; sourceTree = "<group>"; };
 		B6F2A8D219E220E900350F9C /* HNLaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HNLaunchScreen.xib; path = "CustomViews/Launch Screen/HNLaunchScreen.xib"; sourceTree = "<group>"; };
 		B6F76AF019E069990047556B /* HNGridMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HNGridMenuView.swift; path = CustomViews/Menu/HNGridMenuView.swift; sourceTree = "<group>"; };
+		DF0DD9AAEBA4E581A6CBD8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E00BF15266934FC7A9473FF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4A4B6B09140FD31B5271DD5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		E94BC62565F913FF87092CB8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FD1130A3498FB58865BFB207 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +153,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9736D846DE1540C8A72F1530 /* libPods.a in Frameworks */,
+				153DFD3DD09256F1025BC572 /* BuddyBuildSDK.framework in Frameworks */,
+				E1A1E2096C17D9559871E0CE /* AssetsLibrary.framework in Frameworks */,
+				23F51D82ABFB5C55700F5064 /* CoreText.framework in Frameworks */,
+				38EB5EBBE6A3E1C501536643 /* CoreTelephony.framework in Frameworks */,
+				B7CC307231DA2EA28538ED6A /* SystemConfiguration.framework in Frameworks */,
+				FCDBF151EE00A25952074171 /* QuartzCore.framework in Frameworks */,
+				CBCB2E787AF1204610903566 /* AVFoundation.framework in Frameworks */,
+				6D5429616EDE2094A840CC21 /* CoreMedia.framework in Frameworks */,
+				71403981AA56A9D0E389D13D /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +179,15 @@
 			isa = PBXGroup;
 			children = (
 				E00BF15266934FC7A9473FF8 /* libPods.a */,
+				52DD45687520846380EE2BC4 /* BuddyBuildSDK.framework */,
+				39482340A6C249BA33E298E3 /* AssetsLibrary.framework */,
+				3CCBAF9767487D26148CA522 /* CoreText.framework */,
+				E94BC62565F913FF87092CB8 /* CoreTelephony.framework */,
+				3C2B98C188AC130145A32318 /* SystemConfiguration.framework */,
+				DF0DD9AAEBA4E581A6CBD8BF /* QuartzCore.framework */,
+				7B7F3344615FF360FA99722E /* AVFoundation.framework */,
+				FD1130A3498FB58865BFB207 /* CoreMedia.framework */,
+				E4A4B6B09140FD31B5271DD5 /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -796,6 +832,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -814,6 +854,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HN/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
